@@ -26,25 +26,10 @@ payment transactions are involved.
 -   Supports idempotency using an `Idempotency-Key`.
 
 ## Architecture
+![Uploading image.png…]()
 
-``` text
-React Frontend
-      |
-      v
-Node.js + Express Backend
-      |
-      +--------------------+
-      |                    |
-      v                    v
-MySQL Database        GenAI Service
-                           |
-                           v
-                        Groq API
-```
 
 Payment recovery flow:
-
-``` text
 Payment Request
       |
       v
