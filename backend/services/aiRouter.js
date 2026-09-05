@@ -19,7 +19,7 @@ async function selectBestGateway(
     try {
         // Groq GenAI service ko payment aur gateways bhej rahe hain
         const response = await fetch(
-            "http://localhost:5000/api/ai/route",
+           `${process.env.AI_SERVICE_URL}/api/ai/route`,
             {
                 method: "POST",
                 headers: {
