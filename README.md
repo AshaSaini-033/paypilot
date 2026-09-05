@@ -54,6 +54,13 @@ Second attempt
       |
       v
 Recovered / Failed
+
+
+
+
+
+
+
 Live Demo: https://paypilot-frontend-9sgf.onrender.com/
 
 ## Tech Stack
