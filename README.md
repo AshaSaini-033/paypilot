@@ -26,7 +26,8 @@ payment transactions are involved.
 -   Supports idempotency using an `Idempotency-Key`.
 
 ## Architecture
-![Uploading image.png…]()
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/90a5b72d-1245-4959-aa27-2c9caeb68ecb" />
+
 
 
 Payment recovery flow:
